@@ -10,9 +10,13 @@ if(n>o)
 }
 printf("ihe given number is postive");
 }
-else
+else if(n<0)
 {
 printf("the given number is negative");
+}
+else
+{
+  printf("the given number is zero");
 }
 getch();
 }
