@@ -10,5 +10,6 @@ while(count<4)
 n=n\10;
 count ++;
 }
+  printf("the count is %d"count);
 getch();
 }
