@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<coniuo.h>
-void main()
+int main()
 {
 char n;
 clrscr();
@@ -19,5 +18,4 @@ default:
       printf("it is not vowel");
       break;
 }     
-getch();
 }
