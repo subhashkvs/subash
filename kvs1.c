@@ -9,7 +9,7 @@ scanf("%c",&c);
 for(i=0;i<5;i++)
 if(a[i]==c)
 {
-printf("given letter is vowel");
+printf(" letter is vowel");
 }
 else
 {
