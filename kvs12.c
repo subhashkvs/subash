@@ -5,7 +5,7 @@ void main()
 int n,r=0,temp,b;
 printf("enter the number");
 scanf("%d",&n);
-int a=n
+a=n
 while(n!=0)
 {
 temp=n%10;
