@@ -19,4 +19,5 @@ int i,j,temp;
     printf("%d",a[i]);
   }
    printf("the minimum number is :%d",a[0]);
+  getch();
  }
