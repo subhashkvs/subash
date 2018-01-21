@@ -3,7 +3,7 @@
 int main()
 {
 int a[10]={3,2,6,5,4,1,8,7,9};
-int i,j,n,b;
+int i,j,temp;
  for(i=0;i<a[10];i++)
  {
  for(j=i+1;j<a[10];j++)
@@ -18,9 +18,9 @@ int i,j,n,b;
   {
     printf("%d",a[i]);
   }
-   printf("the minimum number is :%d",a[o]);
+   printf("the minimum number is :%d",a[0]);
  }
- }
+ 
     
    
    
