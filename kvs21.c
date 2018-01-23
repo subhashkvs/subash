@@ -20,5 +20,5 @@ for(i=a;i<=tn; i= i + d )
 else
      printf("%d = %d ",i,sum);
   }
-return 0;
+ getch();
 }
