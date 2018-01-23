@@ -3,7 +3,8 @@
 int main()
 {
 int a[10]={3,2,6,5,4,1,8,7,9};
-int i,j,temp;
+int i,j,temp,b;
+ clrscr();
  for(i=0;i<10;i++)
  {
  for(j=i+1;j<10];j++)
@@ -18,6 +19,7 @@ int i,j,temp;
   {
     printf("%d",a[i]);
   }
-   printf("the minimum number is :%d",a[0]);
+  b=10/2;
+  printf("the minimum number is :%d",a[b]);
   getch();
  }
