@@ -2,16 +2,17 @@
 #include<conio.h>
 void main()
 {
-int a,b,n,i;
+int a,b,n,m,i;
 printf("enter the number:");
 scanf("%d%d",&a,&b);
-if(a==b)
+n=a*b;
+for(i=1;i<10;i++)
 {
-    printf("it is correct");
-}
-else
-{
-    printf("it is wrong");
+    m=i*i;
+    if(m==n)
+    {
+        printf("yes");
+    }
 }
 getch();
 }
